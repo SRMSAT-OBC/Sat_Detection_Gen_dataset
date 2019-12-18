@@ -1,4 +1,5 @@
 # Sat_Detection_Gen_dataset
+Add other members and make this private repo
 This project will create dataset to train ML model for tracking of satellite
 
 I have created a program to rotate and zoom a cube using OpenGL and PyGame. You have to
