@@ -12,3 +12,14 @@ I have created a program to rotate and zoom a cube using OpenGL and PyGame. You 
 
 3. Add skin to the cube. Currently the cube is just a wireframe and there are ways to add a surface by choosing 3 points in OpenGL
   a. Preferable use the skins as PNG, all kept in a folder so that we can just change the images and re-run the program to get new data.
+
+UPDATE
+
+
+@priyam314
+priyam314 Add files via upload
+
+Update to Sat_Detection_Gen_Dataset
+A workspace for rotating cube has been built. Three buttons, one for screenshot which is working absolutely fine, second to close the particular workspace and third for the random function(this has no functionality yet), an image has also been added in place of rotating cube. 
+The project thereof is programmed in Python using pygame and os modules.
+The very next step is to link the rotating cube code to sat_detection_obc.py and complete the functionality of the "random" button, such that our cube will rotate in any direction specified or unspecified.
