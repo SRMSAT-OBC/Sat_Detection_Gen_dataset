@@ -23,3 +23,14 @@ Update to Sat_Detection_Gen_Dataset
 A workspace for rotating cube has been built. Three buttons, one for screenshot which is working absolutely fine, second to close the particular workspace and third for the random function(this has no functionality yet), an image has also been added in place of rotating cube. 
 The project thereof is programmed in Python using pygame and os modules.
 The very next step is to link the rotating cube code to sat_detection_obc.py and complete the functionality of the "random" button, such that our cube will rotate in any direction specified or unspecified.
+
+UPDATE
+
+
+
+@GeNeRaL-ShAdOw
+GeNeRaL-ShAdOw Add files via upload
+
+@GeNeRaL-ShAdOw
+Update to Sat_Detection_Gen_Dataset
+Another code has been uploaded, with help from tutorials for the rotating cube.The screenshot function, however is still to be fulfilled.
