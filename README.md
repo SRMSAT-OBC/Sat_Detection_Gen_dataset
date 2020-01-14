@@ -38,3 +38,7 @@ Another code has been uploaded, with help from tutorials for the rotating cube.T
 UPDATE
 
 A bug has been fixed.
+
+UPDATE
+
+The colour cube has been uploaded, although its not user modifiable.
