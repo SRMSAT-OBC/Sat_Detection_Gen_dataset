@@ -34,3 +34,7 @@ GeNeRaL-ShAdOw Add files via upload
 @GeNeRaL-ShAdOw
 Update to Sat_Detection_Gen_Dataset
 Another code has been uploaded, with help from tutorials for the rotating cube.The screenshot function, however is still to be fulfilled.
+
+UPDATE
+
+A bug has been fixed.
