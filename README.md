@@ -46,3 +46,7 @@ The colour cube has been uploaded, although its not user modifiable.
 UPDATE 
 
 QUEST code has been uploaded 
+
+UPDATE
+
+BILATERAL blur has been applied to the edge detection for sat for reducing noise, but there doesn't seem to be any effect.
