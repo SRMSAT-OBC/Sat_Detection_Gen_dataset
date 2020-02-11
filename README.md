@@ -46,3 +46,7 @@ The colour cube has been uploaded, although its not user modifiable.
 UPDATE 
 
 QUEST code has been uploaded 
+
+UPDATE
+
+The bug for colour cube has been fixed and renamed as cube_colour.Please use the file as refrence in the future.
