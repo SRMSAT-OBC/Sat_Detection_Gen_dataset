@@ -50,3 +50,7 @@ QUEST code has been uploaded
 UPDATE
 
 The bug for colour cube has been fixed and renamed as cube_colour.Please use the file as refrence in the future.
+
+UPDATE:NEXT OBJECTIVE
+
+We have to add 5 leds(circles) in the original rotating cube and calculate the alpha beta and gamma angles.
