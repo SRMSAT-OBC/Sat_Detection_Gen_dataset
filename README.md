@@ -54,3 +54,7 @@ The bug for colour cube has been fixed and renamed as cube_colour.Please use the
 UPDATE:NEXT OBJECTIVE
 
 We have to add 5 leds(circles) in the original rotating cube and calculate the alpha beta and gamma angles.
+
+UPDATE
+
+Led detection program has been uploaded(LED in name only it detects basically everything in white colour)
