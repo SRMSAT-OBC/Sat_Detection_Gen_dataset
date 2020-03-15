@@ -58,3 +58,7 @@ We have to add 5 leds(circles) in the original rotating cube and calculate the a
 UPDATE
 
 Led detection program has been uploaded(LED in name only it detects basically everything in white colour)
+
+UPDATE
+
+LED detection program improved, detects five colours and displays their coordinates.(Yellow and purple values needs to be rechecked.)
