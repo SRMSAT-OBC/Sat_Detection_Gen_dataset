@@ -11,8 +11,8 @@ while True:
     upper_ledb=np.array([126,255,255])
     lower_ledr=np.array([161,155,84])
     upper_ledr=np.array([179,255,255])
-    lower_ledp=np.array([20,0,20])
-    upper_ledp=np.array([139,50,140])
+    lower_ledp=np.array([50,0,500])
+    upper_ledp=np.array([150,50,150])
     lower_ledq=np.array([0,50,50])
     upper_ledq=np.array([0,255,255])
     mask_ledg=cv2.inRange(hsv,lower_ledg,upper_ledg)
@@ -26,29 +26,26 @@ while True:
         for [[x,y]] in points:
             if c%4==0:
                 np.average(points)
-                #cv2.circle(mask1,(x,y),2,(255,255,255),1)
                 st1="GREEN="+str(x)+','+str(y)
             else:
                 c+=0.0001
     else:
-        st1="GREEN="+"0,0"
+        st1="GREEN="+"0,0" 
     if mask_ledb.any():
         points2 = cv2.findNonZero(mask_ledb)
         for [[x,y]] in points2:
             if c%4==0:
                 np.average(points2)
-                #cv2.circle(mask1,(x,y),2,(225,255,255),1)
                 st2="BLUE="+str(x)+','+str(y)
             else:
                 c+=0.0001
     else:
-        st2="BLUE="+"0,0"
+        st2="BLUE="+"0,0" 
     if mask_ledr.any():
         points3 = cv2.findNonZero(mask_ledr)
         for [[x,y]] in points3:
             if c%4==0:
                 np.average(points3)
-                #cv2.circle(mask1,(x,y),2,(225,255,255),1)
                 st3="RED="+str(x)+','+str(y)
             else:
                 c+=0.0001
@@ -59,7 +56,6 @@ while True:
         for [[x,y]] in points4:
             if c%4==0:
                 np.average(points4)
-                #cv2.circle(mask1,(x,y),5,(225,255,255),1)
                 st4="PURPLE="+str(x)+','+str(y)
             else:
                 c+=0.0001
@@ -70,7 +66,6 @@ while True:
         for [[x,y]] in points5:
             if c%4==0:
                 np.average(points5)
-                #cv2.circle(mask1,(x,y),2,(225,255,255),1)
                 st5="YELLOW="+str(x)+','+str(y)
             else:
                 c+=0.0001
